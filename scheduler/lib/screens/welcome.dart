@@ -115,7 +115,7 @@ class WelcomePage extends StatelessWidget {
                                       padding: EdgeInsets.symmetric(
                                           horizontal: 10.0),
                                       child: Text(
-                                        'Ou',
+                                        '',
                                         style: TextStyle(
                                             color: Colors.white, fontSize: 16),
                                       ),

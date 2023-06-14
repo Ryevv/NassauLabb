@@ -41,6 +41,8 @@ dependencies:
   sqflite: ^2.2.8+4
   google_fonts: ^5.0.0
   persistent_bottom_nav_bar: ^5.0.2
+  http: ^1.0.0
+ 
 
 dev_dependencies:
   flutter_test:

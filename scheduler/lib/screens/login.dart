@@ -27,6 +27,10 @@ class LoginPage extends StatelessWidget {
     }
   }
 
+ 
+ 
+ 
+ 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -99,13 +103,13 @@ class LoginPage extends StatelessWidget {
                                           CrossAxisAlignment.start,
                                       // ignore: prefer_const_literals_to_create_immutables
                                       children: [
-                                        Text("Jane Dow",
+                                        Text("José Mário",
                                             style: TextStyle(
                                                 color: Colors.white,
                                                 fontSize: 20,
                                                 fontWeight: FontWeight.bold)),
                                         const SizedBox(height: 5),
-                                        Text("jane.doe@gmail.com",
+                                        Text("jose.mario@teste.com",
                                             style: const TextStyle(
                                                 color: Colors.white,
                                                 fontSize: 18))

@@ -166,7 +166,7 @@ class courseListPast extends StatelessWidget {
                   var list=snapshot.data!.where((element) =>((double.parse(element.hour)+((double.parse(element.min)/60)))<((double.parse(DateFormat("H").format(DateTime.now())))+((double.parse(DateFormat.m().format(DateTime.now())))/60) ))).toList();
                   list.sort((a,b)=>((double.parse(b.hour)+((double.parse(b.min))/60)).compareTo((double.parse(a.hour)+((double.parse(a.min))/60)))));
 
-                  return list.isEmpty? Center(child: Text("No lectures are done till now 😔"),): ListView.builder(
+                  return list.isEmpty? Center(child: Text("Sem aulas passadas no momento"),): ListView.builder(
                     // shrinkWrap: true,
                     itemCount: list.length,
                     itemBuilder: (context, index) {
