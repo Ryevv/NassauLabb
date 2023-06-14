@@ -130,7 +130,8 @@ class LoginPage extends StatelessWidget {
                                         0.03),
                                 MyButtonAgree(
                                   text: "Continue",
-                                  onTap: () {
+                                  onTap: () { 
+                                    
                                     Navigator.pushReplacement(
                                         context,
                                         MaterialPageRoute(
