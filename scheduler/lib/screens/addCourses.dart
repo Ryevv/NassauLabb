@@ -155,6 +155,8 @@ var days=["Segunda","Terça","Quarta","Quinta","Sexta","Sábado","Domingo"];
                       decoration:InputDecoration(
                         labelText:"Código do curso",
                         hintText: "eg. ESC201A",
+                        
+                    
 
                       ),
                       onChanged:(value){
@@ -239,4 +241,12 @@ var days=["Segunda","Terça","Quarta","Quinta","Sexta","Sábado","Domingo"];
       ),
     );
   }
+
+
+
+
+
+
+
+
 }
